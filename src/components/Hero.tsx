@@ -15,18 +15,6 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Slogan & Heritage Badge */}
-          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 text-xs sm:text-sm font-medium mb-8 backdrop-blur-sm shadow-sm hover:border-cyan-400/50 transition-colors">
-            <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-ping" />
-            <span className="font-semibold tracking-wide uppercase text-[11px] text-cyan-400">
-              Venture Studio &amp; Product Lab
-            </span>
-            <span className="text-slate-500">•</span>
-            <span className="italic font-display font-medium text-slate-200">
-              "Innovating Heritage Through Technology"
-            </span>
-          </div>
-
           {/* Main Headline */}
           <h1 className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight text-white leading-[1.1] mb-6">
             Engineering High-Impact{' '}
@@ -36,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
           {/* Subheading */}
           <p className="text-base sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto mb-10">
-            Founded by 3 software engineers in Sri Lanka. We eliminate frontline operational friction, paper chaos, and revenue leakage for businesses through rapid agile engineering and purposeful digital architecture.
+            A premier software engineering studio in Sri Lanka. We eliminate frontline operational friction, paper chaos, and revenue leakage for growing businesses through high-performance digital platforms and purposeful architecture.
           </p>
 
           {/* Action CTAs */}
@@ -45,7 +33,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               onClick={() => onNavigate('products')}
               className="w-full sm:w-auto px-8 py-3.5 rounded-xl font-semibold text-slate-950 bg-gradient-to-r from-cyan-400 via-sky-300 to-cyan-300 hover:from-cyan-300 hover:to-sky-200 shadow-xl shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300 hover:-translate-y-0.5 flex items-center justify-center gap-2 cursor-pointer text-base"
             >
-              <span>Explore Flagship SaaS</span>
+              <span>Explore SaaS Solutions</span>
               <ArrowRight className="w-4 h-4" />
             </button>
 
@@ -53,7 +41,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               onClick={() => onNavigate('methodology')}
               className="w-full sm:w-auto px-8 py-3.5 rounded-xl font-semibold text-white bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 hover:border-cyan-500/40 transition-all duration-300 hover:-translate-y-0.5 flex items-center justify-center gap-2 cursor-pointer text-base shadow-lg"
             >
-              <span>Agile Milestones</span>
+              <span>Engineering Process</span>
               <Layers className="w-4 h-4 text-cyan-400" />
             </button>
 
@@ -71,10 +59,10 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             <div className="glass-card p-4 rounded-xl text-left border border-slate-800/80 bg-slate-900/40">
               <div className="flex items-center gap-2 text-cyan-400 mb-1">
                 <Zap className="w-4 h-4" />
-                <span className="font-mono text-xs uppercase tracking-wider text-slate-400">Velocity</span>
+                <span className="font-mono text-xs uppercase tracking-wider text-slate-400">Direct Access</span>
               </div>
-              <div className="font-display font-bold text-lg text-white">Direct to Builders</div>
-              <p className="text-xs text-slate-400 mt-0.5">Talk directly with the 3 engineers designing your code.</p>
+              <div className="font-display font-bold text-lg text-white">Senior Engineers</div>
+              <p className="text-xs text-slate-400 mt-0.5">Collaborate directly with core architects with zero intermediary layers.</p>
             </div>
 
             <div className="glass-card p-4 rounded-xl text-left border border-slate-800/80 bg-slate-900/40">
@@ -83,7 +71,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <span className="font-mono text-xs uppercase tracking-wider text-slate-400">Reliability</span>
               </div>
               <div className="font-display font-bold text-lg text-white">Frontline-Tested</div>
-              <p className="text-xs text-slate-400 mt-0.5">Engineered for intense crowds, wet hands &amp; beach counters.</p>
+              <p className="text-xs text-slate-400 mt-0.5">Engineered for high-volume crowds, offline modes &amp; mission-critical uptime.</p>
             </div>
 
             <div className="glass-card p-4 rounded-xl text-left border border-slate-800/80 bg-slate-900/40">
@@ -92,16 +80,16 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <span className="font-mono text-xs uppercase tracking-wider text-slate-400">Governance</span>
               </div>
               <div className="font-display font-bold text-lg text-white">Milestone Sprints</div>
-              <p className="text-xs text-slate-400 mt-0.5">Transparent 30-30-20-10 de-risked payment framework.</p>
+              <p className="text-xs text-slate-400 mt-0.5">Transparent staged delivery with live staging reviews before sign-off.</p>
             </div>
 
             <div className="glass-card p-4 rounded-xl text-left border border-slate-800/80 bg-slate-900/40">
               <div className="flex items-center gap-2 text-cyan-400 mb-1">
                 <CheckCircle2 className="w-4 h-4" />
-                <span className="font-mono text-xs uppercase tracking-wider text-slate-400">Zero Bloat</span>
+                <span className="font-mono text-xs uppercase tracking-wider text-slate-400">Architecture</span>
               </div>
-              <div className="font-display font-bold text-lg text-white">Remote Lab</div>
-              <p className="text-xs text-slate-400 mt-0.5">Zero overhead costs passed on as high software value.</p>
+              <div className="font-display font-bold text-lg text-white">Cloud-Native</div>
+              <p className="text-xs text-slate-400 mt-0.5">Scalable, secure, and modern digital systems built for long-term growth.</p>
             </div>
           </div>
         </div>
@@ -116,16 +104,16 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               <span className="w-2 h-2 rounded-full bg-cyan-400" /> React &amp; Next.js
             </span>
             <span className="px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-blue-500" /> TypeScript &amp; Tailwind CSS
+              <span className="w-2 h-2 rounded-full bg-blue-500" /> Flutter Mobile / Firebase
             </span>
             <span className="px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-400" /> Supabase &amp; PostgreSQL
+              <span className="w-2 h-2 rounded-full bg-emerald-400" /> Node.js &amp; Laravel
             </span>
             <span className="px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-sky-400" /> Flutter Mobile / Scanner
+              <span className="w-2 h-2 rounded-full bg-sky-400" /> MySQL &amp; MongoDB
             </span>
             <span className="px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-purple-400" /> Node.js &amp; Python FastAPI
+              <span className="w-2 h-2 rounded-full bg-purple-400" /> TypeScript &amp; Tailwind CSS
             </span>
           </div>
         </div>

@@ -45,19 +45,19 @@ export const ContactSection: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-4">
             <MessageSquare className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Initiate Direct Contact</span>
+            <span>Direct Technical Consultation</span>
           </div>
           <h2 className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight mb-4">
             Let's Build Something{' '}
             <span className="gradient-text-cyan">Remarkable Together</span>
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            Have a question about TCMS, SurfDesk, or a custom software engineering requirement? Reach out directly to the 3 founding engineers.
+            Have questions regarding our SaaS platforms (TCMS, SurfDesk) or exploring a custom software development project? Connect directly with our engineering team.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          {/* Left Column: Direct Founder Access Card */}
+          {/* Left Column: Direct Engineering Access Card */}
           <div className="lg:col-span-5 space-y-6">
             <div className="glass-card p-8 rounded-3xl border border-slate-800 bg-slate-900/50 relative overflow-hidden">
               <div className="flex items-center gap-3 mb-6">
@@ -65,7 +65,7 @@ export const ContactSection: React.FC = () => {
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-xl text-white">Direct Founder Channel</h3>
+                  <h3 className="font-display font-bold text-xl text-white">Direct Engineering Channel</h3>
                   <p className="text-xs text-slate-400">Guaranteed response within 24 business hours</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export const ContactSection: React.FC = () => {
                 <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800/80 flex items-center justify-between gap-3">
                   <div>
                     <span className="text-[11px] font-mono uppercase tracking-wider text-slate-500 block">
-                      Primary Email
+                      Official Inquiries
                     </span>
                     <span className="font-mono text-cyan-300 font-semibold text-sm select-all">
                       ceyloniclabs@gmail.com
@@ -98,10 +98,10 @@ export const ContactSection: React.FC = () => {
                   <MapPin className="w-5 h-5 text-cyan-400 shrink-0" />
                   <div>
                     <span className="text-[11px] font-mono uppercase tracking-wider text-slate-500 block">
-                      Operational Headquarters
+                      Engineering Studio
                     </span>
                     <span className="text-white text-sm font-medium">
-                      Sri Lanka (Distributed Remote Lab)
+                      Sri Lanka • Serving Local &amp; Global Clients
                     </span>
                   </div>
                 </div>
@@ -110,10 +110,10 @@ export const ContactSection: React.FC = () => {
                   <Clock className="w-5 h-5 text-cyan-400 shrink-0" />
                   <div>
                     <span className="text-[11px] font-mono uppercase tracking-wider text-slate-500 block">
-                      Direct Engineering Syncs
+                      Technical Discovery Calls
                     </span>
                     <span className="text-white text-sm font-medium">
-                      Google Meet &amp; Field Demos Available
+                      Virtual Demos &amp; Requirements Architecture
                     </span>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <h3 className="font-display font-bold text-2xl text-white">Inquiry Received!</h3>
                   <p className="text-slate-300 text-sm max-w-md mx-auto">
-                    Thank you, <strong>{formData.name || 'there'}</strong>. We have logged your request. One of our 3 founding engineers will review your requirement and follow up via email within 24 hours.
+                    Thank you, <strong>{formData.name || 'there'}</strong>. We have logged your request. Our engineering team will review your requirements and follow up via email within 24 hours.
                   </p>
                   <div className="pt-4">
                     <button
