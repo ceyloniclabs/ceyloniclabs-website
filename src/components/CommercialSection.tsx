@@ -164,36 +164,36 @@ export const CommercialSection: React.FC<CommercialSectionProps> = ({ onNavigate
             <div className="glass-card p-8 rounded-2xl border border-slate-800 bg-slate-900/40 flex flex-col justify-between">
               <div>
                 <span className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400">
-                  Coastal Tourism Focus
+                  Tourism &amp; Leisure
                 </span>
                 <h3 className="font-display font-bold text-2xl text-white mt-1 mb-2">
-                  Seasonal (SurfDesk)
+                  Seasonal Operations
                 </h3>
                 <p className="text-xs text-slate-400 mb-6">
-                  Tailored for seasonal windows (e.g. Southern Coast Nov–Apr or Eastern Coast May–Oct).
+                  Tailored for seasonal leisure, tourism, and coastal enterprises with fluctuating operating cycles.
                 </p>
 
                 <div className="mb-6 pb-6 border-b border-slate-800">
                   <div className="text-3xl font-display font-extrabold text-white">3 to 6 Months</div>
-                  <div className="text-xs text-slate-400 mt-1">Pay only while your tourist season is active</div>
+                  <div className="text-xs text-slate-400 mt-1">Pay only while your business season is actively running</div>
                 </div>
 
                 <div className="space-y-3 mb-8">
                   <div className="flex items-center gap-2.5 text-xs text-slate-300">
                     <Check className="w-4 h-4 text-cyan-400 shrink-0" />
-                    <span>Data preserved safely during off-season</span>
+                    <span>Complete data preservation during hiatus</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-xs text-slate-300">
                     <Check className="w-4 h-4 text-cyan-400 shrink-0" />
-                    <span>No subscription fee during monsoon closure</span>
+                    <span>Zero licensing fees during off-season months</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-xs text-slate-300">
                     <Check className="w-4 h-4 text-cyan-400 shrink-0" />
-                    <span>Re-activate with 24h notice next season</span>
+                    <span>Instant on-demand re-activation next season</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-xs text-slate-300">
                     <Check className="w-4 h-4 text-cyan-400 shrink-0" />
-                    <span>Digital waivers &amp; photo damage included</span>
+                    <span>Digital waivers &amp; photo damage matrix included</span>
                   </div>
                 </div>
               </div>
@@ -212,10 +212,10 @@ export const CommercialSection: React.FC<CommercialSectionProps> = ({ onNavigate
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="text-center space-y-2">
                 <h3 className="font-display font-bold text-2xl sm:text-3xl text-white">
-                  Agile Milestone Payments (Model B)
+                  Milestone-Based Custom Engineering
                 </h3>
                 <p className="text-sm text-slate-400">
-                  Every custom software project is budgeted as fixed-price sprint deliverables. You only pay for verified, demonstrated software.
+                  Every custom software project is budgeted with transparent sprint deliverables. You only approve payments for verified, demonstrated software.
                 </p>
               </div>
 
@@ -266,22 +266,6 @@ export const CommercialSection: React.FC<CommercialSectionProps> = ({ onNavigate
             </div>
           </div>
         )}
-
-        {/* Commercial Policies Notes Bar */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-slate-800/80 text-xs text-slate-400 font-mono">
-          <div className="flex items-center gap-2">
-            <span className="text-cyan-400 font-bold">NET-7 INVOICING:</span>
-            <span>7-day settlement window with a 5-day safety grace period.</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-cyan-400 font-bold">DATA SOVEREIGNTY:</span>
-            <span>Free export of your data (CSV/JSON) upon cancellation.</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-cyan-400 font-bold">LOCAL &amp; GLOBAL:</span>
-            <span>Billed in LKR for Sri Lanka or USD/EUR for global clients.</span>
-          </div>
-        </div>
       </div>
     </section>
   );

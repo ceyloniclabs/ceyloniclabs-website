@@ -3,7 +3,6 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ProductsSection } from './components/ProductsSection';
 import { ServicesSection } from './components/ServicesSection';
-import { MethodologySection } from './components/MethodologySection';
 import { AboutSection } from './components/AboutSection';
 import { CommercialSection } from './components/CommercialSection';
 import { ContactSection } from './components/ContactSection';
@@ -67,7 +66,6 @@ export const App: React.FC = () => {
         <Hero onNavigate={handleNavigate} />
         <ProductsSection onNavigate={handleNavigate} />
         <ServicesSection onNavigate={handleNavigate} />
-        <MethodologySection onNavigate={handleNavigate} />
         <AboutSection onNavigate={handleNavigate} />
         <CommercialSection onNavigate={handleNavigate} />
         <ContactSection />
