@@ -1,11 +1,11 @@
 import React from 'react';
-import { 
-  Globe, 
-  Smartphone, 
-  Database, 
-  Cpu, 
-  ArrowRight, 
-  Check, 
+import {
+  Globe,
+  Smartphone,
+  Database,
+  Cpu,
+  ArrowRight,
+  Check,
   Code2
 } from 'lucide-react';
 
@@ -19,7 +19,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onNavigate }) 
       icon: Globe,
       title: 'Full-Stack Web Applications',
       desc: 'High-performance web applications, customer portals, and internal dashboards built with Next.js, React, and robust TypeScript backends.',
-      tags: ['Next.js', 'React', 'Node.js', 'FastAPI'],
+      tags: ['Next.js', 'React', 'Node.js', 'Laravel'],
       capabilities: [
         'Responsive, reactive SPA & SSR interfaces',
         'Complex business rules & role authorization',
@@ -41,7 +41,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onNavigate }) 
       icon: Database,
       title: 'Cloud Architecture & Micro-ERP',
       desc: 'Custom business logic platforms to automate manual bottlenecks—from automated inventory deduction to client billing and audit logging.',
-      tags: ['PostgreSQL', 'Supabase', 'Docker', 'Redis'],
+      tags: ['MySQL', 'MongoDB', 'Docker', 'Redis'],
       capabilities: [
         'Scalable relational schemas & indexing',
         'Real-time websockets & event streaming',

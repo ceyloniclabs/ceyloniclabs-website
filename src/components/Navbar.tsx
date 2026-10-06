@@ -19,11 +19,10 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate }) => 
   }, []);
 
   const navLinks = [
-    { id: 'products', label: 'Products & SaaS' },
-    { id: 'services', label: 'Services' },
-    { id: 'methodology', label: 'Milestones' },
-    { id: 'about', label: 'About & Team' },
-    { id: 'pricing', label: 'Pricing' },
+    { id: 'products', label: 'Products & Solutions' },
+    { id: 'services', label: 'Custom Engineering' },
+    { id: 'about', label: 'About Us' },
+    { id: 'pricing', label: 'Pricing & Plans' },
     { id: 'contact', label: 'Contact' },
   ];
 
@@ -65,7 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate }) => 
                 </span>
               </div>
               <span className="text-[10px] tracking-widest uppercase font-mono text-slate-400 -mt-1 hidden sm:block">
-                Venture Studio
+                Engineering Studio
               </span>
             </div>
           </button>

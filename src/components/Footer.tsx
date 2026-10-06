@@ -39,7 +39,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </p>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-md">
-              An agile software venture studio &amp; remote engineering lab in Sri Lanka. We build scalable vertical SaaS platforms and high-impact custom software for modern businesses.
+              A specialized software engineering studio in Sri Lanka. We engineer scalable vertical SaaS platforms and mission-critical custom digital systems for modern enterprises.
             </p>
 
             <div className="pt-2">
@@ -64,7 +64,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('products')}
                   className="hover:text-cyan-400 transition-colors cursor-pointer"
                 >
-                  Flagship SaaS Products
+                  Products &amp; SaaS
                 </button>
               </li>
               <li>
@@ -72,15 +72,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('services')}
                   className="hover:text-cyan-400 transition-colors cursor-pointer"
                 >
-                  Custom Software Services
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => onNavigate('methodology')}
-                  className="hover:text-cyan-400 transition-colors cursor-pointer"
-                >
-                  Agile Sprint Milestones
+                  Custom Engineering
                 </button>
               </li>
               <li>
@@ -88,7 +80,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('about')}
                   className="hover:text-cyan-400 transition-colors cursor-pointer"
                 >
-                  About the 3 Founders
+                  About Ceylonic Labs
                 </button>
               </li>
               <li>
@@ -96,7 +88,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('pricing')}
                   className="hover:text-cyan-400 transition-colors cursor-pointer"
                 >
-                  Commercial Pricing Models
+                  Pricing &amp; Plans
                 </button>
               </li>
             </ul>
@@ -113,8 +105,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('products')}
                   className="hover:text-cyan-400 transition-colors text-left cursor-pointer"
                 >
-                  <span className="font-semibold text-white block">TCMS Tuition System</span>
-                  <span className="text-[11px] text-slate-400">QR Smart Cards &amp; Automated Fees</span>
+                  <span className="font-semibold text-white block">TCMS Tuition Platform</span>
+                  <span className="text-[11px] text-slate-400">QR Smart Gate &amp; Automated Fees</span>
                 </button>
               </li>
               <li>
@@ -129,16 +121,17 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </ul>
           </div>
 
-          {/* Legal & Operations */}
+          {/* Standards & Governance */}
           <div>
             <h4 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-200 mb-4">
-              Governance
+              Standards &amp; Quality
             </h4>
             <div className="space-y-2.5 text-xs text-slate-400">
-              <p>100% Remote-First Lab</p>
-              <p>Sri Lanka (Distributed)</p>
+              <p>Enterprise Code Quality</p>
+              <p>Strict Data Sovereignty &amp; NDA</p>
+              <p>Transparent Sprint Milestones</p>
               <p className="text-[11px] text-slate-400 pt-1">
-                Scaling toward formal Private Limited (Pvt Ltd) incorporation under Sri Lanka company registry.
+                Sri Lanka • Serving Local &amp; International Clients
               </p>
               <div className="pt-2">
                 <button
